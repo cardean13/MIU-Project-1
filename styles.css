@@ -41,7 +41,17 @@ p{
 	color: white
 }
 
-a{
+html nav{	
+
+	background-image:url('/Users/Bioassassin/Desktop/MIU-Project-1/images/stock.png');
+	background-repeat: no-repeat;
+	margin: auto;
+	height: 160px;
+	width: 260px;
+	
+}
+
+body a{
 	display: block;
 	font: 16px Arial;
 	margin: 20px 10px;
