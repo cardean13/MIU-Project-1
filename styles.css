@@ -23,22 +23,28 @@ h1{
 	padding: 10px;
 	font-weight: bold;
 	border: 1px solid black;
-	width: 250px;
+	border-radius: 15px;
+	width: 	auto;
 	color: #242e30;
 	background-color: #ffcc99;
 	text-align: center
 }
 
 h2{
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: #99cc99;
 	font: 22px Arial;
-	margin-left: 10px;
-	color: #cfcfcf;
+	text-align: center ;
+	margin: 0px 10px;
+	margin-top: -20px;
+	color: black;
 }
 
-p{
-	font: 18px Arial;
+.search{
 	margin-left: 10px;
-	color: white
+	width: 206px;
+	text-shadow: 0 1px 1px color black;
 }
 
 .add{	
@@ -49,7 +55,6 @@ p{
 	display: block;
 	background-image:url('/Users/Bioassassin/Desktop/MIU-Project-1/images/stock.png');
 	background-repeat: no-repeat;
-	
 	margin: auto;
 	height: 170px;
 	width: 260px;
