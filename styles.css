@@ -41,17 +41,21 @@ p{
 	color: white
 }
 
-html nav{	
-
+.add{	
+	border-radius: 15px;
+	text-align: center;
+	font-size: 40px;
+	line-height: 146px ;
+	display: block;
 	background-image:url('/Users/Bioassassin/Desktop/MIU-Project-1/images/stock.png');
 	background-repeat: no-repeat;
-	margin: auto;
-	height: 160px;
-	width: 260px;
 	
+	margin: auto;
+	height: 170px;
+	width: 260px;
 }
 
-body a{
+.all{
 	display: block;
 	font: 16px Arial;
 	margin: 20px 10px;
