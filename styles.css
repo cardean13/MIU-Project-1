@@ -57,7 +57,7 @@ h2{
 	background-repeat: no-repeat;
 	margin: auto;
 	height: 170px;
-	width: 260px;
+	width: 245px;
 }
 
 .all{
@@ -97,11 +97,60 @@ label{
 	padding-top: 10px
 }
 
-ul{
+#errors{
 	list-style-image: url('/Users/Bioassassin/Desktop/MIU-Project-1/jpgfolder/arrow.jpg');
 	color: red;
-	
-	
+}
+#nav li{
+	width: auto
+	float: left;
+	position: relative;
+	list-style: none;
+}
+#nav a{	
+	border-radius: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid black;
+	color: #242e30;
+	background-color: #d4d4d4;
+	text-align: center;
 
 }
 
+#nav ul li:hover a, #nav li:hover li a {
+	width: auto;
+	background: none;
+	border: none;
+	color: black;
+}
+#nav li:hover > ul {
+	display: table-row;
+}
+
+#nav ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: inherit;
+	position:  relative;
+	background: #ddd;
+	border: 1px solid #b4b4b4;
+	
+}
+#nav ul li {
+	float: none;
+	margin: auto;
+	padding: auto;
+	width: auto;
+}
+
+#nav ul a{
+	font-weight: normal;
+}
+
+#nav ul ul {
+	left: 89px;
+	top: -1px;
+}
