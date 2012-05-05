@@ -101,18 +101,25 @@ label{
 	list-style-image: url('/Users/Bioassassin/Desktop/MIU-Project-1/jpgfolder/arrow.jpg');
 	color: red;
 }
+#nav{
+	margin: 0;
+	padding: 7px 6px 0;
+	background: #d4d4d4;
+	line-height: inherit;
+	text-align: center;
+	width: auto;
+	border-radius: 15 px;
+	
+	border: 1px solid black;
+}
 #nav li{
-	width: auto
-	float: left;
-	position: relative;
+	float: center;
 	list-style: none;
 }
 #nav a{	
-	border-radius: 10px;
 	font-weight: bold;
 	text-decoration: none;
 	font-weight: bold;
-	border: 1px solid black;
 	color: #242e30;
 	background-color: #d4d4d4;
 	text-align: center;
